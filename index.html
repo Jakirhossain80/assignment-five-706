@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/favicon1.jpg" type="image/x-icon">
+
+    <!-- Tailwind CSS -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+      <title>Dev Board</title>
+
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;" class="bg-slate-300 text-[#00303c] mb-10">
+
+
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+
+            <div class="container mx-auto w-5/6 p-4 bg-white  mt-2 rounded-md flex justify-between items-center">
+                <!-- Left Div -->
+                <div class="cursor-pointer hover:scale-105 duration-300">
+                    <img src="assets/logo.png" alt="logoImage" class="w-6 inline-block">
+                    <p class=" text-base font-light inline-block">Dev<span class="font-bold">Board</span></p>
+                </div>
+
+                <!-- Right div -->
+                <div class="flex justify-between items-center gap-4">
+                    <div class="flex justify-between items-center gap-2 px-3 py-1 bg-[#f4f7ff] rounded-full">
+                        <img src="assets/checkbox.png" alt="checkedImage" class="w-4 hover:scale-110 duration-300 cursor-pointer">
+                        <span class="text-base font-bold">23</span>
+                    </div>
+                    <div class="w-7 h-7 bg-[#f4f7ff] rounded-full flex justify-center items-center">
+                        <img src="assets/theme-btn.png" alt="themeBtnImage" class="w-4 cursor-pointer hover:rotate-360 duration-300">
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Main -->
+     <main>
+        <div class="container mx-auto w-5/6  mt-2 flex gap-2">
+
+           
+            <!-- Left Div -->
+            <div class="w-3/4 bg-white p-2 rounded-md">
+                
+               
+                <!-- First Div -->
+                 <div class="flex justify-center items-center gap-4 mb-3 overflow-hidden">
+
+
+                    <div class="flex justify-evenly items-center gap-2 bg-[#f4f7ff] p-4 rounded-md grow-3">
+                        <div class="w-8 h-8 bg-white rounded-full flex justify-center items-center"><img src="assets/checkbox.png" alt="checkImage" class="w-4 hover:scale-110 duration-300 cursor-pointer"></div>
+                        <div>
+                            <p class="text-sm font-semibold">Task Assigned</p>
+                            <p class="text-base font-bold">05</p>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <div class="grow-7 rounded-md bg-linear-to-r from-[#3a54fd] to-[#99a6f8] p-4 flex justify-evenly items-center gap-4 cursor-pointer hover:scale-102 duration-300 ">
+                        <img src="assets/board.png" alt="boardImage" class="w-11 inline-block">
+                        <p class="text-white inline-block text-sm font-normal">Discover Something <br> New Today!</p>
+                    </div>
+
+
+                   
+                   
+                    <div class="flex justify-evenly items-center gap-2 bg-[#f4f7ff] p-4 rounded-md grow-3">
+                        <div class="w-8 h-8 bg-white rounded-full flex justify-center items-center"><img src="assets/calender.png" alt="checkImage" class="w-4 hover:scale-110 duration-300 cursor-pointer"></div>
+                        <div>
+                            <p class="text-sm font-semibold">Wed,</p>
+                            <p class="text-base font-bold">Jul 28 2025</p>
+                        </div>
+                    </div>
+
+                 
+                </div>
+                <!-- First Div end -->
+
+                <!-- The Horizontal Line -->
+                 <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
+              
+
+                <!-- Second div -->
+                 <div class="grid grid-cols-3 justify-center items-center gap-4 mt-3">
+                    
+                    <!-- First Card -->
+                     <div class="bg-[#f4f7ff] rounded-md p-3">
+                        
+                        
+                        <div>
+                            
+                            <button class="text-[10px] inline px-3 py-1 bg-white rounded-sm">ShopEase</button>
+                        </div>
+                        
+                        <div class="my-2">
+                            <h3 class="text-sm font-semibold">Fix Mobile Button Issue</h3>
+                        </div>
+                        
+                        <div class="p-1 bg-white rounded-sm">
+                            <p class="text-[9px] text-[#808080]">Debug using Chrome DevTools, check for overiappi...</p>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 border-t border-gray-200 border-dashed mt-2 py-2">
+                            <div>
+                                <p class="text-[8px] text-[#496c77]">Deadline</p>
+                                <h5 class="text-[9px] font-semibold">21 March 2025</h5>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Completed</button>
+                            </div>
+                        </div>
+
+                     
+                    </div>
+
+                    <!-- First Card end -->
+
+                
+                    <!-- Second Card -->
+                     <div class="bg-[#f4f7ff] rounded-md p-3">
+                        
+                        
+                        <div>
+                            
+                            <button class="text-[10px] inline px-3 py-1 bg-white rounded-sm">CloudSync</button>
+                        </div>
+                        
+                        <div class="my-2">
+                            <h3 class="text-sm font-semibold">Add Dark Mode</h3>
+                        </div>
+                        
+                        <div class="p-1 bg-white rounded-sm">
+                            <p class="text-[9px] text-[#808080]">Debug using Chrome DevTools, check for overiappi...</p>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 border-t border-gray-200 border-dashed mt-2 py-2">
+                            <div>
+                                <p class="text-[8px] text-[#496c77]">Deadline</p>
+                                <h5 class="text-[9px] font-semibold">21 March 2025</h5>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Completed</button>
+                            </div>
+                        </div>
+
+                     
+                    </div>
+
+                    <!-- Second Card end -->
+
+                
+                    <!-- Third Card -->
+                     <div class="bg-[#f4f7ff] rounded-md p-3">
+                        
+                        
+                        <div>
+                            
+                            <button class="text-[10px] inline px-3 py-1 bg-white rounded-sm">SwiftPay</button>
+                        </div>
+                        
+                        <div class="my-2">
+                            <h3 class="text-sm font-semibold">Optimize Home Page</h3>
+                        </div>
+                        
+                        <div class="p-1 bg-white rounded-sm">
+                            <p class="text-[9px] text-[#808080]">Debug using Chrome DevTools, check for overiappi...</p>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 border-t border-gray-200 border-dashed mt-2 py-2">
+                            <div>
+                                <p class="text-[8px] text-[#496c77]">Deadline</p>
+                                <h5 class="text-[9px] font-semibold">21 March 2025</h5>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Completed</button>
+                            </div>
+                        </div>
+
+                     
+                    </div>
+
+                    <!-- Third Card end -->
+
+                
+                    <!-- Fourth Card -->
+                     <div class="bg-[#f4f7ff] rounded-md p-3">
+                        
+                        
+                        <div>
+                            
+                            <button class="text-[10px] inline px-3 py-1 bg-white rounded-sm">Meta</button>
+                        </div>
+                        
+                        <div class="my-2">
+                            <h3 class="text-sm font-semibold">Add New Emoji 🤲</h3>
+                        </div>
+                        
+                        <div class="p-1 bg-white rounded-sm">
+                            <p class="text-[9px] text-[#808080]">Debug using Chrome DevTools, check for overiappi...</p>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 border-t border-gray-200 border-dashed mt-2 py-2">
+                            <div>
+                                <p class="text-[8px] text-[#496c77]">Deadline</p>
+                                <h5 class="text-[9px] font-semibold">21 March 2025</h5>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Completed</button>
+                            </div>
+                        </div>
+
+                     
+                    </div>
+
+                    <!-- Fourth Card end -->
+
+                
+                    <!-- Fifth Card -->
+                     <div class="bg-[#f4f7ff] rounded-md p-3">
+                        
+                        
+                        <div>
+                            
+                            <button class="text-[10px] inline px-3 py-1 bg-white rounded-sm">Google LLC</button>
+                        </div>
+                        
+                        <div class="my-2">
+                            <h3 class="text-sm font-semibold">Integrate OpenAI API</h3>
+                        </div>
+                        
+                        <div class="p-1 bg-white rounded-sm">
+                            <p class="text-[9px] text-[#808080]">Debug using Chrome DevTools, check for overiappi...</p>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 border-t border-gray-200 border-dashed mt-2 py-2">
+                            <div>
+                                <p class="text-[8px] text-[#496c77]">Deadline</p>
+                                <h5 class="text-[9px] font-semibold">21 March 2025</h5>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Completed</button>
+                            </div>
+                        </div>
+
+                     
+                    </div>
+
+                    <!-- Fifth Card end -->
+
+                
+                    <!-- Sixth Card -->
+                     <div class="bg-[#f4f7ff] rounded-md p-3">
+                        
+                        
+                        <div>
+                            
+                            <button class="text-[10px] inline px-3 py-1 bg-white rounded-sm">Glassdoar</button>
+                        </div>
+                        
+                        <div class="my-2">
+                            <h3 class="text-sm font-semibold">Improve Job Searching</h3>
+                        </div>
+                        
+                        <div class="p-1 bg-white rounded-sm">
+                            <p class="text-[9px] text-[#808080]">Debug using Chrome DevTools, check for overiappi...</p>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 border-t border-gray-200 border-dashed mt-2 py-2">
+                            <div>
+                                <p class="text-[8px] text-[#496c77]">Deadline</p>
+                                <h5 class="text-[9px] font-semibold">21 March 2025</h5>
+                            </div>
+                            <div>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Completed</button>
+                            </div>
+                        </div>
+
+                     
+                    </div>
+
+                    <!-- Sixth Card end -->
+
+                
+                
+                
+                </div>
+                <!-- Second Div end -->
+
+
+
+            </div>
+            <!-- Left Div end -->
+
+
+           
+              
+
+            
+            <!-- Right Div -->
+             <div class="w-1/4 bg-white p-2 rounded-md grid grid-cols-1 justify-center items-start">
+
+                <div>
+
+
+                            <div class="flex justify-center items-center gap-2 mt-2">
+                                <img src="assets/activity.png" alt="activityImage" class="w-3 inline-block">
+                                <span class="text-[10px] font-semibold">Activity Log</span>
+                            </div>
+                            <div class="flex justify-center mt-2  mb-3">
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Clear History</button>
+                            </div>
+
+
+                            
+                        <!-- The Horizontal Line -->
+                        <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
+
+                        <div class="mt-1 p-2 flex flex-col">
+
+                            <p class="bg-[#f4f7ff] p-2 my-2 text-[8px] text-[#808080] rounded-sm">
+                                You have Completed The Task Add Dark Mode at 12:48:15 PM
+                            </p>
+
+                            <p class="bg-[#f4f7ff] p-2 my-2 text-[8px] text-[#808080] rounded-sm">
+                                You have Completed The Task Add Dark Mode at 12:48:15 PM
+                            </p>
+
+
+                            <p class="bg-[#f4f7ff] p-2 my-2 text-[8px] text-[#808080] rounded-sm">
+                                You have Completed The Task Add Dark Mode at 12:48:15 PM
+                            </p>
+
+
+                        </div>
+
+
+                </div>
+
+
+             </div>
+
+        </div>
+     </main>
+
+   
+   
+
+</body>
+</html>
