@@ -90,3 +90,39 @@ document.getElementById('board-tab').addEventListener('click', function(){
            
             colorIndex = (colorIndex + 1) % colors.length;
         });
+
+
+        // Live Current date
+
+        function updateDate() {
+            const dateDiv = document.getElementById("dateDiv");
+            const now = new Date();
+
+            
+            const options = { month: 'short', day: '2-digit', year: 'numeric' };
+            let formattedDate = now.toLocaleDateString("en-US", options);
+
+            formattedDate = formattedDate.replace(",", "");
+
+            dateDiv.textContent = formattedDate;
+        }
+
+        
+        updateDate();
+
+
+        function updateWeekday() {
+            const weekdayDiv = document.getElementById("weekdayDiv");
+            const now = new Date();
+
+          
+            const options = { weekday: 'short' };
+            let formattedWeekday = now.toLocaleDateString("en-US", options) + ",";
+
+            weekdayDiv.textContent = formattedWeekday;
+        }
+
+      
+        updateWeekday();
+
+        
