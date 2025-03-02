@@ -19,7 +19,7 @@
 
 </head>
 
-<body style="font-family: 'Poppins', sans-serif;" class="bg-slate-300 text-[#00303c] mb-10">
+<body id="colorBox" style="font-family: 'Poppins', sans-serif;" class="bg-slate-300 text-[#00303c] mb-10">
 
 
     <header>
@@ -37,10 +37,10 @@
                 <div class="flex justify-between items-center gap-4">
                     <div class="flex justify-between items-center gap-2 px-3 py-1 bg-[#f4f7ff] rounded-full">
                         <img src="assets/checkbox.png" alt="checkedImage" class="w-4 hover:scale-110 duration-300 cursor-pointer">
-                        <span class="text-base font-bold">23</span>
+                        <span id="increaseDiv" class="text-base font-bold">23</span>
                     </div>
                     <div class="w-7 h-7 bg-[#f4f7ff] rounded-full flex justify-center items-center">
-                        <img src="assets/theme-btn.png" alt="themeBtnImage" class="w-4 cursor-pointer hover:rotate-360 duration-300">
+                        <img src="assets/theme-btn.png" alt="themeBtnImage"  id="changeColorBtn" class="w-4 cursor-pointer hover:rotate-360 duration-300">
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@
                         <div class="w-8 h-8 bg-white rounded-full flex justify-center items-center"><img src="assets/checkbox.png" alt="checkImage" class="w-4 hover:scale-110 duration-300 cursor-pointer"></div>
                         <div>
                             <p class="text-sm font-semibold">Task Assigned</p>
-                            <p class="text-base font-bold">07</p>
+                            <p id="decreaseDiv" class="text-base font-bold">6</p>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@
                         </div>
                         
                         <div class="my-2">
-                            <h3 class="text-sm font-semibold">Fix Mobile Button Issue</h3>
+                            <h3 class="text-sm font-semibold heading">Fix Mobile Button Issue</h3>
                         </div>
                         
                         <div class="p-1 bg-white rounded-sm max-w-xs h-[70px] text-justify">
@@ -122,7 +122,7 @@
                                 <h5 class="text-[9px] font-semibold">21 March 2025</h5>
                             </div>
                             <div>
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300 complete-btn">Completed</button>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 hover:bg-[#3545ac] duration-300 cursor-pointer alertButton">Completed</button>
                             </div>
                         </div>
 
@@ -142,7 +142,7 @@
                         </div>
                         
                         <div class="my-2">
-                            <h3 class="text-sm font-semibold">Add Dark Mode</h3>
+                            <h3 class="text-sm font-semibold heading">Add Dark Mode</h3>
                         </div>
                         
                         <div class="p-1 bg-white rounded-sm max-w-xs h-[70px] text-justify">
@@ -155,7 +155,7 @@
                                 <h5 class="text-[9px] font-semibold">21 March 2025</h5>
                             </div>
                             <div>
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300 complete-btn">Completed</button>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1  hover:bg-[#3545ac] duration-300 cursor-pointer alertButton">Completed</button>
                             </div>
                         </div>
 
@@ -175,7 +175,7 @@
                         </div>
                         
                         <div class="my-2">
-                            <h3 class="text-sm font-semibold">Optimize Home Page</h3>
+                            <h3 class="text-sm font-semibold heading">Optimize Home Page</h3>
                         </div>
                         
                         <div class="p-1 bg-white rounded-sm max-w-xs h-[70px] text-justify">
@@ -188,7 +188,7 @@
                                 <h5 class="text-[9px] font-semibold">21 March 2025</h5>
                             </div>
                             <div>
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300 complete-btn">Completed</button>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 hover:bg-[#3545ac] duration-300 cursor-pointer alertButton">Completed</button>
                             </div>
                         </div>
 
@@ -208,7 +208,7 @@
                         </div>
                         
                         <div class="my-2">
-                            <h3 class="text-sm font-semibold">Add New Emoji 🤲</h3>
+                            <h3 class="text-sm font-semibold heading">Add New Emoji 🤲</h3>
                         </div>
                         
                         <div class="p-1 bg-white rounded-sm max-w-xs h-[70px] text-justify">
@@ -221,7 +221,7 @@
                                 <h5 class="text-[9px] font-semibold">21 March 2025</h5>
                             </div>
                             <div>
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300 complete-btn">Completed</button>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 hover:bg-[#3545ac] duration-300 cursor-pointer alertButton">Completed</button>
                             </div>
                         </div>
 
@@ -241,7 +241,7 @@
                         </div>
                         
                         <div class="my-2">
-                            <h3 class="text-sm font-semibold">Integrate OpenAI API</h3>
+                            <h3 class="text-sm font-semibold heading">Integrate OpenAI API</h3>
                         </div>
                         
                         <div class="p-1 bg-white rounded-sm max-w-xs h-[70px] text-justify">
@@ -254,7 +254,7 @@
                                 <h5 class="text-[9px] font-semibold">21 March 2025</h5>
                             </div>
                             <div>
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300 complete-btn">Completed</button>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 hover:bg-[#3545ac] duration-300 cursor-pointer alertButton">Completed</button>
                             </div>
                         </div>
 
@@ -274,7 +274,7 @@
                         </div>
                         
                         <div class="my-2">
-                            <h3 class="text-sm font-semibold">Improve Job Searching</h3>
+                            <h3 class="text-sm font-semibold heading">Improve Job Searching</h3>
                         </div>
                         
                         <div class="p-1 bg-white rounded-sm max-w-xs h-[70px] text-justify">
@@ -287,7 +287,7 @@
                                 <h5 class="text-[9px] font-semibold">21 March 2025</h5>
                             </div>
                             <div>
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300 complete-btn">Completed</button>
+                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm w-full px-3 py-1 hover:bg-[#3545ac] duration-300 cursor-pointer alertButton">Completed</button>
                             </div>
                         </div>
 
@@ -323,7 +323,7 @@
                                 <span class="text-[10px] font-semibold">Activity Log</span>
                             </div>
                             <div class="flex justify-center mt-2  mb-3">
-                                <button class="bg-[#3752fd] text-white text-[8px] rounded-sm px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Clear History</button>
+                                <button id="clearLog" class="bg-[#3752fd] text-white text-[8px] rounded-sm px-3 py-1 cursor-pointer hover:bg-[#3545ac] duration-300">Clear History</button>
                             </div>
 
 
@@ -331,21 +331,11 @@
                         <!-- The Horizontal Line -->
                         <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
 
-                        <div class="mt-1 p-2 flex flex-col">
+                        <div id="logContainer" class="mt-1 p-2 flex flex-col">
 
-                            <p class="bg-[#f4f7ff] p-2 my-2 text-[8px] text-[#808080] rounded-sm">
-                                You have Completed The Task Add Dark Mode at 12:48:15 PM
-                            </p>
+                            <ul id="activityLog" class="text-[8px] text-[#808080] rounded-sm"></ul>
 
-                            <p class="bg-[#f4f7ff] p-2 my-2 text-[8px] text-[#808080] rounded-sm">
-                                You have Completed The Task Add Dark Mode at 12:48:15 PM
-                            </p>
-
-
-                            <p class="bg-[#f4f7ff] p-2 my-2 text-[8px] text-[#808080] rounded-sm">
-                                You have Completed The Task Add Dark Mode at 12:48:15 PM
-                            </p>
-
+                            
 
                         </div>
 
