@@ -58,7 +58,7 @@
             <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
 
             <div class="mt-2">
-                <P class="text-[9px] text-[#808080]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sit, ipsam corporis quasi consequuntur repellendus, explicabo architecto iste nulla obcaecati ut consequatur similique cum? Vero eos atque blanditiis cum! Est!</P>
+                <P class="text-[9px] text-[#808080]">To select elements within the Document Object Model (DOM), JavaScript offers several methods. getElementById() retrieves a single element based on its unique id attribute, providing efficient access. getElementsByClassName() gathers all elements sharing a specific class attribute, returning an HTMLCollection. Similarly, getElementsByTagName() selects elements by their HTML tag name, also yielding an HTMLCollection. For more flexible selection, querySelector() targets the first element matching a CSS selector, while querySelectorAll() returns a NodeList containing all matching elements. Notably, getElementById() returns a single element, whereas the getElementsBy... methods and querySelectorAll() return collections. querySelector() finds only the first match, and HTMLCollections are live, reflecting DOM changes, while NodeLists from querySelectorAll() are static. The use of CSS selector syntax in querySelector() and querySelectorAll() enables complex and precise element targeting.</P>
             </div>
         </div>
 
@@ -73,7 +73,7 @@
             <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
 
             <div class="mt-2">
-                <P class="text-[9px] text-[#808080]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sit, ipsam corporis quasi consequuntur repellendus, explicabo architecto iste nulla obcaecati ut consequatur similique cum? Vero eos atque blanditiis cum! Est!</P>
+                <P class="text-[9px] text-[#808080]">innerHTML, innerText, and textContent are all properties in JavaScript that allow you to access and manipulate the text content of an HTML element, but they differ in how they handle that content. innerHTML retrieves or sets the HTML markup contained within an element, including any nested HTML tags. This means it parses the content as HTML, allowing you to both read and inject HTML structures. innerText, on the other hand, retrieves or sets the rendered text content of an element, meaning it only provides the human-readable text that is actually displayed on the page. It ignores any HTML tags and respects CSS styling, such as visibility, so elements hidden by CSS will not be included in innerText. textContent retrieves or sets the text content of an element and all its descendants, including any elements, without interpreting it as HTML. It returns the raw text as it appears in the source code, irrespective of CSS styling. Therefore, innerHTML deals with parsed HTML, innerText with rendered text, and textContent with raw text.</P>
             </div>
         </div>
 
@@ -88,7 +88,7 @@
             <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
 
             <div class="mt-2">
-                <P class="text-[9px] text-[#808080]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sit, ipsam corporis quasi consequuntur repellendus, explicabo architecto iste nulla obcaecati ut consequatur similique cum? Vero eos atque blanditiis cum! Est!</P>
+                <P class="text-[9px] text-[#808080]">Event delegation in the DOM is a technique where you attach a single event listener to a parent element, rather than attaching individual listeners to each of its children. This listener then handles events that occur on any of the descendant elements. The core principle behind event delegation relies on the concept of event bubbling, where an event that occurs on a child element propagates up the DOM tree to its parent elements. By placing the listener on a common ancestor, you can effectively capture events from all its children. When an event occurs, you can use the event.target property to determine which specific child element triggered the event, and then perform the appropriate action. This method is particularly useful when dealing with dynamically added elements, as it avoids the need to attach new event listeners to each newly created element. It also improves performance by reducing the number of event listeners that need to be managed, leading to more efficient code.</P>
             </div>
         </div>
 
@@ -103,7 +103,7 @@
             <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
 
             <div class="mt-2">
-                <P class="text-[9px] text-[#808080]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sit, ipsam corporis quasi consequuntur repellendus, explicabo architecto iste nulla obcaecati ut consequatur similique cum? Vero eos atque blanditiis cum! Est!</P>
+                <P class="text-[9px] text-[#808080]">Event bubbling in the DOM is a fundamental concept that describes the order in which event handlers are called when an event occurs on a nested element. When an event, such as a click, occurs on an element, that event is first captured by the target element itself. Then, instead of stopping there, the event "bubbles" up the DOM tree, triggering the same event on each of the target element's parent elements, all the way up to the root of the document. Essentially, the event propagates upwards, from the most specific element where the event originated to the least specific ancestor elements. This allows parent elements to listen for and react to events that occur on their child elements, even if they don't have direct event listeners attached to those children.</P>
             </div>
         </div>
 
@@ -118,7 +118,7 @@
             <hr class=" w-full border-t-1 border-gray-200 border-dashed ">
 
             <div class="mt-2">
-                <P class="text-[9px] text-[#808080]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sit, ipsam corporis quasi consequuntur repellendus, explicabo architecto iste nulla obcaecati ut consequatur similique cum? Vero eos atque blanditiis cum! Est!</P>
+                <P class="text-[9px] text-[#808080]">JavaScript provides several methods for dynamically manipulating the DOM by creating, adding, and removing elements. To create a new element, you typically use the document.createElement() method, passing the tag name of the desired element as an argument. This creates an element node that can then be modified. To add this newly created element to the DOM, you can use methods like appendChild(), insertBefore(), or insertAdjacentElement(). appendChild() adds the element as the last child of a specified parent element. insertBefore() inserts the element before a specified sibling element. insertAdjacentElement() provides more flexibility, allowing you to insert the element at various positions relative to another element. To remove an element from the DOM, you can use the removeChild() method, which removes a child element from its parent, or the remove() method, which removes the element itself from the DOM regardless of parent. These methods allow for dynamic updates to the web page, enabling interactive and responsive user experiences.</P>
             </div>
         </div>
 
